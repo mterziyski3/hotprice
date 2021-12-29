@@ -8,6 +8,16 @@
       content="Used as a boilerplate for tasks in the 'HTML, CSS and SASS' course in boom.dev"
     />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script src="https://kit.fontawesome.com/8ef6f6e903.js" crossorigin="anonymous"></script>
+    <script>
+      window.onload = () => {
+        var products = document.querySelectorAll(".hot");
+        var emoji = ' <i class="fas fa-fire"></i>'
+        products.forEach(item => {
+          item.innerHTML += emoji
+        });
+      };
+    </script>
   </head>
   <body>
     <div class="main">
